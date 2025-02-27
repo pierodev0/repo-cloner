@@ -1,0 +1,29 @@
+{
+  "name": "template-cloner",
+  "version": "1.0.0",
+  "description": "Una herramienta CLI para clonar repositorios y cambiarles el nombre",
+  "main": "index.js",
+  "bin": {
+    "tempcl": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "clone",
+    "repository"
+  ],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^8.3.0",
+    "figlet": "^1.8.0",
+    "git-clone-promise": "^1",
+    "inquirer": "^8.2.0",
+    "simple-git": "^3.27.0"
+  }
+}
